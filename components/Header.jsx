@@ -35,6 +35,12 @@ const Header = () => {
             ) : (
               <>
                 <Link
+                  href="/repos"
+                  className="text-gray-300 hover:text-white mr-4"
+                >
+                  Repositories
+                </Link>
+                <Link
                   href="/dashboard"
                   className="text-gray-300 hover:text-white mr-4"
                 >
